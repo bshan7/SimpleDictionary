@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches 
 
-data = json.load(open(r"C:\Users\downloads\original.json","r"))
+data = json.load(open(r"C:\Users\downloads\original.json","r"))  #specify the exact location of the original.json file
 while True:
     word=input("Enter your word: ")
     output={}
